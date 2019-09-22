@@ -375,4 +375,4 @@ tags:
 
 ## 声明
 
-本文内容参考自：[【自检】前端知识清单.md] (https://github.com/ConardLi/ConardLi.github.io/blob/758508b6b37a6d2efe1ef9aa8e21686292149811/docs/article/%E7%BB%BC%E5%90%88/%E3%80%90%E8%87%AA%E6%A3%80%E3%80%91%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95.md) ，有所删改。
+本文内容参考自：[【自检】前端知识清单.md] (https://github.com/ConardLi/ConardLi.github.io/blob/master/docs/article/%E7%BB%BC%E5%90%88/%E3%80%90%E8%87%AA%E6%A3%80%E3%80%91%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95.md) ，有所删改。
