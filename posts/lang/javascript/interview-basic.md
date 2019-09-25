@@ -5,14 +5,51 @@
 ## 变量和类型
 
 1. `JavaScript`规定了几种语言类型
+
+   ```javascript
+   // Undefined
+   // Null
+   // Boolean
+   // String
+   // Number
+   // Symbol (ES6新加的)
+   // Object
+   // BigInt (ES10增加，目前已被最新的Chrome支持)
+   ```
+
 1. `JavaScript`对象的底层数据结构是什么
+
 1. `Symbol`类型在实际开发中的应用、可手动实现一个简单的`Symbol`
+
 1. `JavaScript`中的变量在内存中的具体存储形式
+
 1. 基本类型对应的内置对象，以及他们之间的装箱拆箱操作
+
 1. 理解值类型和引用类型
+
 1. `null`和`undefined`的区别
+
+   ```javascript
+   /*
+   	// undefined
+   	- undefined类型表示未定义，它的值只有一个：undefined
+   	- 任何变量赋值前都是undefined类型，值为undefined（而不是null）
+   	- undefined是一个变量，而非一个关键字
+   	- 需要表达这个值，可以用全局变量undefined，或者void运算
+   	
+   	// null
+   	- 只有一个值，就是null
+   	- 表示空值，是关键字，可以放心使用null关键字来获取null值
+   */
+   
+   parseInt(undefined) // NaN
+   parseInt(null) // NaN
+   ```
+
 1. 至少可以说出三种判断`JavaScript`数据类型的方式，以及他们的优缺点，如何准确的判断数组类型
+
 1. 可能发生隐式类型转换的场景以及转换原则，应如何避免或巧妙应用
+
 1. 出现小数精度丢失的原因，`JavaScript`可以存储的最大数字、最大安全数字，`JavaScript`处理大数字的方法、避免精度丢失的方法
 
 ## 原型和原型链
